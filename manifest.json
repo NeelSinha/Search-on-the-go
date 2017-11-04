@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Search on the go ",
+  "version": "1.0",
+
+  "description": " Right click to search the selected text or IP ",
+
+ "icons": {
+    "48": "icons/border-48.png"
+  },
+
+ "permissions": [
+        "contextMenus"
+],
+  "background": {
+    "scripts" : ["search-on-the-go.js"]
+  }
+}
