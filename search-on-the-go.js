@@ -90,13 +90,14 @@ function contextMenuAction(info , tab) {
    case "bng" :  url = "http://www.bing.com/search?q="+info.selectionText;
    break ;
    case "whi" : url = "https://whois.com/whois/"+info.linkUrl;
+   break ;
    case "shd" : {
      if (info.selectionText) {
 //To search for a selected text
        url = "https://shodan.io/search?query="+info.selectionText;
      } else {
 //to search for a link
-url = "shodan.io/search?query="+info.linkUrl;
+url = "https://shodan.io/search?query="+info.linkUrl;
      }
    }
    break ;
